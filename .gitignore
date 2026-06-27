@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build output
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.out
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Package locks (keep if needed)
+# package-lock.json
+# yarn.lock
